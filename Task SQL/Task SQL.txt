@@ -1,0 +1,101 @@
+1.
+SELECT CustomerID, CompanyName
+FROM Customers
+ORDER BY CustomerID
+
+2.
+SELECT EmployeeID 
+FROM Employees
+WHERE HireDate = (SELECT MAX(HireDate) FROM Employees)
+
+3.
+SELECT DISTINCT Country
+FROM Customers
+ORDER BY Country
+
+4.
+SELECT CompanyName
+FROM Customers
+WHERE City IN ('Berlin', 'London', 'Madrid', 'Brussels', 'Paris')
+ORDER BY CustomerID DESC
+
+5.
+SELECT CustomerID
+FROM Orders
+WHERE RequiredDate > '1996.8.31' AND RequiredDate < '1996.10.01'
+ORDER BY CustomerID 
+
+6.
+SELECT ContactName,Phone
+FROM Customers
+WHERE Phone LIKE '171%77%' AND Fax LIKE '171%50'
+
+7.
+SELECT 
+City, COUNT(CustomerID) as CustomerCount
+FROM Customers
+WHERE Country IN('Sweden', 'Norway', 'Denmark')
+GROUP BY City
+
+8.
+SELECT Country, COUNT(CustomerID) as CustomerCount
+FROM Customers
+GROUP BY Country
+HAVING COUNT(CustomerID) >= 10
+ORDER BY CustomerCount DESC
+
+9.
+SELECT CustomerID, round(AVG(Freight),0) AS FreightAvg
+FROM Orders
+WHERE ShipCountry IN ('Canada', 'Great Britain')
+GROUP BY CustomerID
+HAVING AVG(Freight) >= 100 OR AVG(Freight) < 10
+ORDER BY FreightAvg DESC
+
+10.
+SELECT TOP 1 EmployeeID 
+FROM Employees 
+WHERE HireDate NOT IN (SELECT MAX(HireDate) FROM Employees) 
+ORDER BY HireDate DESC
+
+11.
+SELECT EmployeeID 
+FROM Employees 
+ORDER BY HireDate DESC
+OFFSET 1 ROW FETCH NEXT 1 ROWS ONLY
+
+12.
+SELECT CustomerID, SUM(Freight) AS FreightSum
+FROM Orders
+WHERE ShippedDate > '1996.07.15' AND ShippedDate < '1996.08.01' AND Freight >= (SELECT AVG(Freight) FROM Orders)
+GROUP BY CustomerID
+ORDER BY FreightSum
+
+13.
+SELECT CustomerID, ShipCountry, OrderPrice
+FROM Orders O 
+INNER JOIN 
+(SELECT OrderID, SUM((UnitPrice * Quantity) - Discount) AS OrderPrice
+FROM [Order Details] 
+GROUP BY OrderID) AS OD 
+ON O.OrderID = OD.OrderID 
+WHERE OrderDate >= '1997.09.01' AND ShipCountry IN ('Argentina', 'Bolivia', 'Brazil', 'Venezuela', 'Guyana', 'Guiana', 'Colombia', 'Paraguay', 'Peru', 'Suriname', 'Uruguay', 'Falkland Islands', 'Chile', 'Ecuador')
+ORDER BY OrderPrice DESC
+OFFSET 0 ROW FETCH NEXT 3 ROWS ONLY
+
+14.
+SELECT DISTINCT CompanyName, MIN(UnitPrice) AS MinPrice, MAX(UnitPrice) AS MaxPrice
+FROM Products INNER JOIN Suppliers ON Suppliers.SupplierID = Products.SupplierID
+GROUP BY CompanyName
+ORDER BY CompanyName
+
+15.
+SELECT Customers.CompanyName AS Customer, CONCAT(FirstName,' ',LastName) AS Employee
+FROM Customers INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID INNER JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID INNER JOIN Shippers ON Orders.ShipVia = Shippers.ShipperID
+WHERE Customers.City = 'London' AND Employees.City = 'London' AND Shippers.CompanyName = 'Speedy Express'
+
+16.
+SELECT ProductName, UnitsInStock, ContactName, Phone
+FROM Categories INNER JOIN Products ON Products.CategoryID = Categories.CategoryID INNER JOIN Suppliers ON Suppliers.SupplierID = Products.SupplierID
+WHERE CategoryName IN ('Beverages', 'Seafood') AND  UnitsInStock < 20 AND Discontinued = 0
+ORDER BY UnitsInStock
