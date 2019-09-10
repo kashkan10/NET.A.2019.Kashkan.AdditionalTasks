@@ -9,3 +9,14 @@ C:\Users\Tanya\source\repos\FileCabinet\FileCabinet\obj\Debug\FileCabinet.csproj
 C:\Users\Tanya\source\repos\FileCabinet\FileCabinet\obj\Debug\FileCabinet.csproj.CopyComplete
 C:\Users\Tanya\source\repos\FileCabinet\FileCabinet\obj\Debug\FileCabinet.exe
 C:\Users\Tanya\source\repos\FileCabinet\FileCabinet\obj\Debug\FileCabinet.pdb
+C:\Users\Tanya\Documents\GitHub\NET.A.2019.Kashkan.AdditionalTasks\FileCabinet\FileCabinet\bin\Debug\NLog.config
+C:\Users\Tanya\Documents\GitHub\NET.A.2019.Kashkan.AdditionalTasks\FileCabinet\FileCabinet\bin\Debug\FileCabinet.exe.config
+C:\Users\Tanya\Documents\GitHub\NET.A.2019.Kashkan.AdditionalTasks\FileCabinet\FileCabinet\bin\Debug\FileCabinet.exe
+C:\Users\Tanya\Documents\GitHub\NET.A.2019.Kashkan.AdditionalTasks\FileCabinet\FileCabinet\bin\Debug\FileCabinet.pdb
+C:\Users\Tanya\Documents\GitHub\NET.A.2019.Kashkan.AdditionalTasks\FileCabinet\FileCabinet\bin\Debug\NLog.dll
+C:\Users\Tanya\Documents\GitHub\NET.A.2019.Kashkan.AdditionalTasks\FileCabinet\FileCabinet\bin\Debug\NLog.xml
+C:\Users\Tanya\Documents\GitHub\NET.A.2019.Kashkan.AdditionalTasks\FileCabinet\FileCabinet\obj\Debug\FileCabinet.csprojAssemblyReference.cache
+C:\Users\Tanya\Documents\GitHub\NET.A.2019.Kashkan.AdditionalTasks\FileCabinet\FileCabinet\obj\Debug\FileCabinet.csproj.CoreCompileInputs.cache
+C:\Users\Tanya\Documents\GitHub\NET.A.2019.Kashkan.AdditionalTasks\FileCabinet\FileCabinet\obj\Debug\FileCabinet.csproj.CopyComplete
+C:\Users\Tanya\Documents\GitHub\NET.A.2019.Kashkan.AdditionalTasks\FileCabinet\FileCabinet\obj\Debug\FileCabinet.exe
+C:\Users\Tanya\Documents\GitHub\NET.A.2019.Kashkan.AdditionalTasks\FileCabinet\FileCabinet\obj\Debug\FileCabinet.pdb

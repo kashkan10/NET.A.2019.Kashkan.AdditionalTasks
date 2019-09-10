@@ -10,3 +10,23 @@
 2019-09-08 13:51:43.2613 | TRACE | FileCabinet.FileCabinet | End List
 2019-09-08 13:51:49.3896 | TRACE | FileCabinet.FileCabinet | Start Create
 2019-09-08 13:51:54.0559 | WARN | FileCabinet.FileCabinet | FormatException
+2019-09-10 15:20:55.6186 | TRACE | FileCabinet.FileCabinet | Start Create
+2019-09-10 15:21:01.2910 | INFO | FileCabinet.FileCabinet | Record is created
+2019-09-10 15:21:03.2491 | TRACE | FileCabinet.FileCabinet | Start Create
+2019-09-10 15:21:08.9374 | INFO | FileCabinet.FileCabinet | Record is created
+2019-09-10 15:21:10.1615 | TRACE | FileCabinet.FileCabinet | Start List
+2019-09-10 15:21:10.1615 | TRACE | FileCabinet.FileCabinet | End List
+2019-09-10 15:21:12.1296 | TRACE | FileCabinet.FileCabinet | Start Remove
+2019-09-10 15:21:14.8097 | INFO | FileCabinet.FileCabinet | User removed successufully
+2019-09-10 15:21:16.2408 | TRACE | FileCabinet.FileCabinet | Start List
+2019-09-10 15:21:16.2408 | TRACE | FileCabinet.FileCabinet | End List
+2019-09-10 15:21:19.6490 | TRACE | FileCabinet.FileCabinet | Start Remove
+2019-09-10 15:21:20.3381 | INFO | FileCabinet.FileCabinet | User removed successufully
+2019-09-10 15:21:21.6741 | TRACE | FileCabinet.FileCabinet | Start List
+2019-09-10 15:21:23.3612 | TRACE | FileCabinet.FileCabinet | Start List
+2019-09-10 15:21:25.6334 | TRACE | FileCabinet.FileCabinet | Start List
+2019-09-10 15:21:44.4254 | TRACE | FileCabinet.FileCabinet | Start Remove
+2019-09-10 15:21:45.8495 | TRACE | FileCabinet.FileCabinet | Start Stat
+2019-09-10 15:21:45.8495 | TRACE | FileCabinet.FileCabinet | End Stat
+2019-09-10 15:21:47.5456 | TRACE | FileCabinet.FileCabinet | Start Edit
+2019-09-10 15:21:48.6977 | TRACE | FileCabinet.FileCabinet | Start Find

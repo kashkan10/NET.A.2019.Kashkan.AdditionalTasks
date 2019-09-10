@@ -306,9 +306,7 @@ namespace FileCabinet
                 return;
             }
 
-            var user = this[id];
-
-            list.Remove(user);
+            list.Remove(this[id]);
 
             for (int i = 0; i < list.Count; i++)
             {
