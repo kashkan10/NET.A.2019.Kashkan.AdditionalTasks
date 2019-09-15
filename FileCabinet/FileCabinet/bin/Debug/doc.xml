@@ -1,8 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <users>
   <user id="1">
+    <name>Don</name>
+    <lastName>Most</lastName>
+    <birthday>12.02.1990</birthday>
+  </user>
+  <user id="2">
     <name>Artyom</name>
     <lastName>Kashkan</lastName>
-    <age>03.03.1996</age>
+    <birthday>03.03.1996</birthday>
+  </user>
+  <user id="3">
+    <name>Mark</name>
+    <lastName>Loss</lastName>
+    <birthday>12.06.1886</birthday>
   </user>
 </users>

@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace FileCabinet
 {
-    internal class XmlStorage : IStorage<User>
+    internal class XmlStorage : IStorage
     {
         private string filePath;
 
@@ -65,7 +65,7 @@ namespace FileCabinet
                 XAttribute userIdAttr = new XAttribute("id", us.Id);
                 XElement userNameAttr = new XElement("name", us.FirstName);
                 XElement userLastNameAttr = new XElement("lastName", us.LastName);
-                XElement userAgeAttr = new XElement("age", us.BirthDate);
+                XElement userAgeAttr = new XElement("birthday", us.BirthDate);
 
                 user.Add(userIdAttr);
                 user.Add(userNameAttr);
@@ -120,7 +120,7 @@ namespace FileCabinet
                         user.LastName = childnode.InnerText;
                     }
 
-                    if (childnode.Name == "age")
+                    if (childnode.Name == "birthday")
                     {
                         user.BirthDate = childnode.InnerText;
                     }

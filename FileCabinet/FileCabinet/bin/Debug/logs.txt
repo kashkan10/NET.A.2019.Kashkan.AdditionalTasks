@@ -1,132 +1,23 @@
-2019-09-08 13:10:20.0913 | TRACE | FileCabinet.FileCabinet | Start List
-2019-09-08 13:10:22.4814 | TRACE | FileCabinet.FileCabinet | Start List
-2019-09-08 13:10:23.7935 | TRACE | FileCabinet.FileCabinet | Start Edit
-2019-09-08 13:10:24.2565 | TRACE | FileCabinet.FileCabinet | Start Find
-2019-09-08 13:10:24.5765 | TRACE | FileCabinet.FileCabinet | Start ExportCSV
-2019-09-08 13:10:26.0076 | INFO | FileCabinet.FileCabinet | Incorrect format
-2019-09-08 13:51:34.9018 | TRACE | FileCabinet.FileCabinet | Start Create
-2019-09-08 13:51:40.8932 | INFO | FileCabinet.FileCabinet | Record is created
-2019-09-08 13:51:43.2613 | TRACE | FileCabinet.FileCabinet | Start List
-2019-09-08 13:51:43.2613 | TRACE | FileCabinet.FileCabinet | End List
-2019-09-08 13:51:49.3896 | TRACE | FileCabinet.FileCabinet | Start Create
-2019-09-08 13:51:54.0559 | WARN | FileCabinet.FileCabinet | FormatException
-2019-09-10 15:20:55.6186 | TRACE | FileCabinet.FileCabinet | Start Create
-2019-09-10 15:21:01.2910 | INFO | FileCabinet.FileCabinet | Record is created
-2019-09-10 15:21:03.2491 | TRACE | FileCabinet.FileCabinet | Start Create
-2019-09-10 15:21:08.9374 | INFO | FileCabinet.FileCabinet | Record is created
-2019-09-10 15:21:10.1615 | TRACE | FileCabinet.FileCabinet | Start List
-2019-09-10 15:21:10.1615 | TRACE | FileCabinet.FileCabinet | End List
-2019-09-10 15:21:12.1296 | TRACE | FileCabinet.FileCabinet | Start Remove
-2019-09-10 15:21:14.8097 | INFO | FileCabinet.FileCabinet | User removed successufully
-2019-09-10 15:21:16.2408 | TRACE | FileCabinet.FileCabinet | Start List
-2019-09-10 15:21:16.2408 | TRACE | FileCabinet.FileCabinet | End List
-2019-09-10 15:21:19.6490 | TRACE | FileCabinet.FileCabinet | Start Remove
-2019-09-10 15:21:20.3381 | INFO | FileCabinet.FileCabinet | User removed successufully
-2019-09-10 15:21:21.6741 | TRACE | FileCabinet.FileCabinet | Start List
-2019-09-10 15:21:23.3612 | TRACE | FileCabinet.FileCabinet | Start List
-2019-09-10 15:21:25.6334 | TRACE | FileCabinet.FileCabinet | Start List
-2019-09-10 15:21:44.4254 | TRACE | FileCabinet.FileCabinet | Start Remove
-2019-09-10 15:21:45.8495 | TRACE | FileCabinet.FileCabinet | Start Stat
-2019-09-10 15:21:45.8495 | TRACE | FileCabinet.FileCabinet | End Stat
-2019-09-10 15:21:47.5456 | TRACE | FileCabinet.FileCabinet | Start Edit
-2019-09-10 15:21:48.6977 | TRACE | FileCabinet.FileCabinet | Start Find
-2019-09-14 23:42:50.3971 | TRACE | FileCabinet.FileCabinet | Start Create
-2019-09-14 23:42:50.8668 | INFO | FileCabinet.FileCabinet | Record is created
-2019-09-14 23:42:56.4707 | TRACE | FileCabinet.FileCabinet | Start List
-2019-09-14 23:42:56.4817 | TRACE | FileCabinet.FileCabinet | End List
-2019-09-14 23:43:00.2544 | TRACE | FileCabinet.FileCabinet | Stat
-2019-09-14 23:43:09.7889 | TRACE | FileCabinet.FileCabinet | Start Export
-2019-09-14 23:43:09.8029 | TRACE | FileCabinet.FileCabinet | End Export
-2019-09-14 23:43:14.6431 | TRACE | FileCabinet.FileCabinet | Start Purge
-2019-09-14 23:43:14.6431 | TRACE | FileCabinet.FileCabinet | End Purge
-2019-09-14 23:43:17.2760 | TRACE | FileCabinet.FileCabinet | Start List
-2019-09-14 23:43:26.6182 | TRACE | FileCabinet.FileCabinet | Start Import
-2019-09-14 23:43:26.6252 | TRACE | FileCabinet.FileCabinet | End Import
-2019-09-14 23:43:28.9766 | TRACE | FileCabinet.FileCabinet | Start List
-2019-09-14 23:43:28.9876 | TRACE | FileCabinet.FileCabinet | End List
-2019-09-14 23:48:05.7486 | TRACE | FileCabinet.FileCabinet | Start Import
-2019-09-14 23:48:45.3939 | TRACE | FileCabinet.FileCabinet | Start Import
-2019-09-14 23:51:20.5047 | TRACE | FileCabinet.FileCabinet | Start Import
-2019-09-14 23:51:20.5416 | TRACE | FileCabinet.FileCabinet | End Import
-2019-09-14 23:51:23.6378 | TRACE | FileCabinet.FileCabinet | Start List
-2019-09-14 23:51:23.6378 | TRACE | FileCabinet.FileCabinet | End List
-2019-09-14 23:51:34.4631 | TRACE | FileCabinet.FileCabinet | Start Create
-2019-09-14 23:51:34.4691 | INFO | FileCabinet.FileCabinet | Record is created
-2019-09-14 23:51:34.4691 | TRACE | FileCabinet.FileCabinet | Stat
-2019-09-14 23:51:46.0466 | TRACE | FileCabinet.FileCabinet | Start List
-2019-09-14 23:51:46.0466 | TRACE | FileCabinet.FileCabinet | End List
-2019-09-14 23:51:49.8530 | TRACE | FileCabinet.FileCabinet | Start Purge
-2019-09-14 23:51:49.8610 | TRACE | FileCabinet.FileCabinet | End Purge
-2019-09-14 23:51:51.6201 | TRACE | FileCabinet.FileCabinet | Start List
-2019-09-15 00:09:48.5047 | TRACE | FileCabinet.FileCabinet | Start Create
-2019-09-15 00:09:48.6590 | INFO | FileCabinet.FileCabinet | Record is created
-2019-09-15 00:09:48.6739 | TRACE | FileCabinet.FileCabinet | Stat
-2019-09-15 00:09:50.8105 | TRACE | FileCabinet.FileCabinet | List
-2019-09-15 00:09:54.1440 | TRACE | FileCabinet.FileCabinet | Stat
-2019-09-15 00:09:57.5712 | TRACE | FileCabinet.FileCabinet | Start Remove
-2019-09-15 00:09:57.5772 | INFO | FileCabinet.FileCabinet | User removed successufully
-2019-09-15 00:10:00.7102 | TRACE | FileCabinet.FileCabinet | List
-2019-09-15 00:10:03.6336 | TRACE | FileCabinet.FileCabinet | Start Remove
-2019-09-15 00:10:03.6396 | INFO | FileCabinet.FileCabinet | User removed successufully
-2019-09-15 00:10:05.1190 | TRACE | FileCabinet.FileCabinet | List
-2019-09-15 00:10:06.5652 | TRACE | FileCabinet.FileCabinet | List
-2019-09-15 00:10:08.7601 | TRACE | FileCabinet.FileCabinet | Start Purge
-2019-09-15 00:10:08.7661 | TRACE | FileCabinet.FileCabinet | End Purge
-2019-09-15 00:10:09.5341 | TRACE | FileCabinet.FileCabinet | List
-2019-09-15 00:17:02.3658 | TRACE | FileCabinet.FileCabinet | Start Import
-2019-09-15 00:17:02.4118 | TRACE | FileCabinet.FileCabinet | End Import
-2019-09-15 00:17:07.1284 | TRACE | FileCabinet.FileCabinet | List
-2019-09-15 00:17:10.1650 | TRACE | FileCabinet.FileCabinet | Start Export
-2019-09-15 00:17:10.2410 | TRACE | FileCabinet.FileCabinet | End Export
-2019-09-15 00:17:12.6731 | TRACE | FileCabinet.FileCabinet | Start Purge
-2019-09-15 00:17:12.6841 | TRACE | FileCabinet.FileCabinet | End Purge
-2019-09-15 00:17:13.6636 | TRACE | FileCabinet.FileCabinet | List
-2019-09-15 00:17:17.1471 | TRACE | FileCabinet.FileCabinet | Start Import
-2019-09-15 00:17:17.1541 | TRACE | FileCabinet.FileCabinet | End Import
-2019-09-15 00:17:19.5964 | TRACE | FileCabinet.FileCabinet | List
-2019-09-15 00:18:27.0398 | TRACE | FileCabinet.FileCabinet | List
-2019-09-15 00:18:31.3103 | TRACE | FileCabinet.FileCabinet | Start Import
-2019-09-15 00:18:31.3103 | TRACE | FileCabinet.FileCabinet | End Import
-2019-09-15 00:18:43.1196 | TRACE | FileCabinet.FileCabinet | List
-2019-09-15 00:18:45.2266 | TRACE | FileCabinet.FileCabinet | Start Import
-2019-09-15 00:18:45.2346 | TRACE | FileCabinet.FileCabinet | End Import
-2019-09-15 00:18:46.1132 | TRACE | FileCabinet.FileCabinet | List
-2019-09-15 00:18:49.9393 | TRACE | FileCabinet.FileCabinet | List
-2019-09-15 00:19:03.7801 | TRACE | FileCabinet.FileCabinet | List
-2019-09-15 13:36:45.9544 | TRACE | FileCabinet.FileCabinet | Stat
-2019-09-15 13:36:49.2236 | TRACE | FileCabinet.FileCabinet | Stat
-2019-09-15 13:36:50.5347 | TRACE | FileCabinet.FileCabinet | Stat
-2019-09-15 13:36:52.0237 | TRACE | FileCabinet.FileCabinet | Stat
-2019-09-15 13:36:53.5118 | TRACE | FileCabinet.FileCabinet | Stat
-2019-09-15 13:36:55.4629 | TRACE | FileCabinet.FileCabinet | Stat
-2019-09-15 13:36:58.6631 | TRACE | FileCabinet.FileCabinet | Stat
-2019-09-15 13:37:00.2632 | TRACE | FileCabinet.FileCabinet | Stat
-2019-09-15 13:37:00.9752 | TRACE | FileCabinet.FileCabinet | Stat
-2019-09-15 13:37:15.6541 | TRACE | FileCabinet.FileCabinet | Start Create
-2019-09-15 13:37:15.6541 | INFO | FileCabinet.FileCabinet | Record is created
-2019-09-15 13:37:15.6541 | TRACE | FileCabinet.FileCabinet | Stat
-2019-09-15 13:37:17.4872 | TRACE | FileCabinet.FileCabinet | Stat
-2019-09-15 13:37:25.6947 | TRACE | FileCabinet.FileCabinet | Stat
-2019-09-15 13:37:31.5020 | TRACE | FileCabinet.FileCabinet | Stat
-2019-09-15 13:37:33.5911 | TRACE | FileCabinet.FileCabinet | Stat
-2019-09-15 13:37:42.6706 | TRACE | FileCabinet.FileCabinet | Stat
-2019-09-15 17:43:25.9730 | TRACE | FileCabinet.Program | Start Create
-2019-09-15 17:43:29.9582 | INFO | FileCabinet.Program | Record is created
-2019-09-15 17:43:31.1143 | TRACE | FileCabinet.Program | Start List
-2019-09-15 17:43:34.1215 | TRACE | FileCabinet.Program | Start ImportCSV
-2019-09-15 17:43:34.1345 | TRACE | FileCabinet.Program | End ImportCSV
-2019-09-15 17:43:35.2015 | TRACE | FileCabinet.Program | Start List
-2019-09-15 17:47:29.1469 | TRACE | FileCabinet.Program | Start Create
-2019-09-15 17:47:35.6023 | INFO | FileCabinet.Program | Record is created
-2019-09-15 17:47:36.9684 | TRACE | FileCabinet.Program | Start List
-2019-09-15 17:47:40.2006 | TRACE | FileCabinet.Program | Start ImportCSV
-2019-09-15 17:47:40.2106 | TRACE | FileCabinet.Program | End ImportCSV
-2019-09-15 17:47:41.4966 | TRACE | FileCabinet.Program | Start List
-2019-09-15 17:47:44.4638 | TRACE | FileCabinet.Program | Start Purge
-2019-09-15 17:47:44.4638 | TRACE | FileCabinet.Program | End Purge
-2019-09-15 17:47:45.6479 | TRACE | FileCabinet.Program | Start Create
-2019-09-15 17:47:52.4883 | INFO | FileCabinet.Program | Record is created
-2019-09-15 17:47:53.3683 | TRACE | FileCabinet.Program | Start List
-2019-09-15 17:47:56.9925 | TRACE | FileCabinet.Program | Start ImportCSV
-2019-09-15 17:47:56.9925 | TRACE | FileCabinet.Program | End ImportCSV
-2019-09-15 17:47:57.7916 | TRACE | FileCabinet.Program | Start List
+2019-09-15 21:44:55.5388 | TRACE | FileCabinet.FileCabinet | Start Create
+2019-09-15 21:45:03.4342 | WARN | FileCabinet.FileCabinet | FormatException
+2019-09-15 21:45:06.2394 | TRACE | FileCabinet.FileCabinet | Start Create
+2019-09-15 21:45:30.6988 | INFO | FileCabinet.FileCabinet | Record is created
+2019-09-15 21:45:32.2559 | TRACE | FileCabinet.FileCabinet | Start List
+2019-09-15 21:45:34.0400 | TRACE | FileCabinet.FileCabinet | Start Create
+2019-09-15 21:45:44.4476 | INFO | FileCabinet.FileCabinet | Record is created
+2019-09-15 21:45:48.3438 | TRACE | FileCabinet.FileCabinet | Start Create
+2019-09-15 21:46:01.9276 | INFO | FileCabinet.FileCabinet | Record is created
+2019-09-15 21:46:03.2876 | TRACE | FileCabinet.FileCabinet | Start List
+2019-09-15 21:46:06.3918 | TRACE | FileCabinet.FileCabinet | Start ExportCSV
+2019-09-15 21:46:06.4038 | TRACE | FileCabinet.FileCabinet | End ExportCSV
+2019-09-15 21:46:08.1999 | TRACE | FileCabinet.FileCabinet | Start ExportXML
+2019-09-15 21:46:48.9113 | TRACE | FileCabinet.FileCabinet | Start ImportCSV
+2019-09-15 21:46:48.9873 | TRACE | FileCabinet.FileCabinet | End ImportCSV
+2019-09-15 21:46:50.0233 | TRACE | FileCabinet.FileCabinet | Start List
+2019-09-15 21:46:54.3596 | TRACE | FileCabinet.FileCabinet | Start ExportXML
+2019-09-15 21:46:54.4216 | TRACE | FileCabinet.FileCabinet | End ExportXML
+2019-09-15 21:47:35.2789 | TRACE | FileCabinet.FileCabinet | Start Purge
+2019-09-15 21:47:35.2789 | TRACE | FileCabinet.FileCabinet | End Purge
+2019-09-15 21:47:38.9591 | TRACE | FileCabinet.FileCabinet | Start ImportXML
+2019-09-15 21:47:38.9911 | TRACE | FileCabinet.FileCabinet | End ImportCSV
+2019-09-15 21:47:39.9272 | TRACE | FileCabinet.FileCabinet | Start List

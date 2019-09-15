@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 namespace FileCabinet
 {
-    internal class CsvStorage : IStorage<User>
+    internal class CsvStorage : IStorage
     {
         private string filePath;
 
@@ -57,7 +57,7 @@ namespace FileCabinet
             using (StreamWriter sw = new StreamWriter(filePath, false, Encoding.Default))
             {
                 string res = string.Empty;
-                res = "Id, Name, LastName, Age";
+                res = "Id, Name, LastName, Date of birth";
                 sw.WriteLine(res);
                 foreach (User us in list)
                 {
